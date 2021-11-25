@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(98, 98, 98);
+    text-align: center;
+}
+.board {
+    border-collapse: collapse;
+    font-size: 150%;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(195, 195, 195);
+}
+
+.board td {   
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    border: 1px solid black;   
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color:rgb(195, 195, 195);
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+p{
+    background-color: #bbb;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: large
+}
+.isMarked{
+ background-color: brown;
+}
+.isShown{
+ background-color: chartreuse;
+}
+.restart{
+    background-color: rgb(98, 98, 98);
+    width: 25px;
+    
+}
+.name{
+    width: 150px;
+    position:absolute;
+    bottom: 0;
+    left: 45%;   
+}
